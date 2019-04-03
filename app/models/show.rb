@@ -7,5 +7,5 @@ class Show < ActiveRecord::Base
     Show.where("rating = '#{self.highest_rating}'")
   end
 
-  def self.
+
 end
